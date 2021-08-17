@@ -74,5 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # client:codegen
 
+```
 apollo client:download-schema --endpoint=https://48p1r2roz4.sse.codesandbox.io schema.graphql
 apollo client:codegen --localSchemaFile=schema.graphql --target typescript --watch
+```
